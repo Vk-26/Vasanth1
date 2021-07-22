@@ -17,6 +17,8 @@ public class MavenBrowserLaunch {
 		searchbox.sendKeys("Maven launch");
 		WebElement Btnclick = driver.findElement(By.id("search-icon-legacy"));
 		Btnclick.click();
+		System.out.println("Username");
+		System.out.println("Password");
 	}
 
 }
